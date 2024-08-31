@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akilles App Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Akilles App Support</h1>
+    
+    <p>Akilles is designed for simplicity and efficiency.</p>
+    
+    <h2>How to:</h2>
+    <ol>
+        <li>On the Exercise tab:
+            <ol type="a">
+                <li>Start by adding your favorite exercises.</li>
+            </ol>
+        </li>
+        <li>On the workout tab:
+            <ol type="a">
+                <li>Build a workout routine with the exercises you have created. Add sets of your exercises that will be completed in the workout.</li>
+                <li>Once created, your workouts can be easily reused and modified to fit your progression.</li>
+                <li>After each session, easily record your completed sets.</li>
+            </ol>
+        </li>
+        <li>On the daily sets tab:
+            <ol type="a">
+                <li>Track your daily progress and stay on top of your gains.</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h2>Key Features:</h2>
+    
+    <h3>Exercise Tracking:</h3>
+    <ul>
+        <li>Log exercise sets with weight, reps, and duration</li>
+        <li>View your progress over time with detailed charts</li>
+        <li>Track personal records (PRs) for each exercise</li>
+    </ul>
+
+    <h3>Workout Templates:</h3>
+    <ul>
+        <li>Create custom workout routines</li>
+        <li>Easily track multiple exercises in a single session</li>
+        <li>Set target weights and reps for each exercise</li>
+        <li>Time your sets as needed</li>
+        <li>Time your full workout as needed</li>
+    </ul>
+
+    <h3>Daily Workout Log:</h3>
+    <ul>
+        <li>Record and review your daily exercises</li>
+        <li>Review your training history by date</li>
+        <li>Analyze your workout data with insightful summaries</li>
+    </ul>
+
+    <h3>Performance Metrics:</h3>
+    <ul>
+        <li>Monitor rep counts, average weights, and volume load</li>
+        <li>Track improvements with percentage changes from 30-day averages</li>
+        <li>View max reps, max weight, and best set duration for each exercise</li>
+    </ul>
+
+    <h3>Categories:</h3>
+    <ul>
+        <li>Organize exercises by muscle groups and categories</li>
+        <li>Filter exercises for easy access during workouts</li>
+    </ul>
+
+    <h3>Detailed Analysis:</h3>
+    <ul>
+        <li>Access statistics for each exercise</li>
+        <li>View total workout volume load</li>
+        <li>Track progress across different muscle groups</li>
+    </ul>
+
+    <h3>User-Friendly Design:</h3>
+    <ul>
+        <li>Intuitive design for quick and easy logging</li>
+        <li>Track the exercises that matter to you</li>
+    </ul>
+
+    <h3>Data Persistence:</h3>
+    <ul>
+        <li>Store your workout data on your device</li>
+        <li>Sync across your devices with iCloud integration</li>
+    </ul>
+
+    <h3>Stopwatch:</h3>
+    <ul>
+        <li>Included to quickly time exercise sets</li>
+        <li>Screen does not shut off when timer is active</li>
+    </ul>
+
+    <h2>Contact Us</h2>
+    <p>If you need further assistance, have any questions, would like to recommend additional functionality, or report bugs, please contact us at: akilles.app@gmail.com</p>
+</body>
+</html>
