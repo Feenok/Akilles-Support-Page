@@ -103,14 +103,17 @@
         }
         
         .screenshot-container {
+            width: 100%;
             overflow-x: auto;
             white-space: nowrap;
-            margin-bottom: 30px;
+            padding-bottom: 20px;
+            -webkit-overflow-scrolling: touch;
         }
         
         .screenshot {
             display: inline-block;
-            width: 200px;
+            width: 200px; /* Adjust this value as needed */
+            height: auto;
             margin-right: 15px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
