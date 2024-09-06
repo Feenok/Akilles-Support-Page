@@ -3,153 +3,237 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akilles App Support</title>
+    <title>Akilles App</title>
     <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --background-color: #f4f4f4;
+            --text-color: #333;
+        }
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        
         h1, h2, h3 {
-            color: #2c3e50;
+            color: var(--secondary-color);
         }
+        
+        h1 {
+            font-size: 2.5em;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            font-size: 1.3em;
+            margin-top: 20px;
+        }
+        
         ul, ol {
-            padding-left: 20px;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .feature-list {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        
+        .privacy-policy {
+            border-top: 2px solid var(--secondary-color);
+            margin-top: 40px;
+            padding-top: 20px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+            
+            h3 {
+                font-size: 1.2em;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Akilles App Support</h1>
-    
-    <p>Akilles is designed for simplicity and efficiency.</p>
-    
-    <h2>How to:</h2>
-    <ol>
-        <li>On the Exercise tab:
-            <ol type="a">
-                <li>Start by adding your favorite exercises.</li>
-            </ol>
-        </li>
-        <li>On the workout tab:
-            <ol type="a">
-                <li>Build a workout routine with the exercises you have created. Add sets of your exercises that will be completed in the workout.</li>
-                <li>Once created, your workouts can be easily reused and modified to fit your progression.</li>
-                <li>After each session, easily record your completed sets.</li>
-            </ol>
-        </li>
-        <li>On the daily sets tab:
-            <ol type="a">
-                <li>Track your daily progress and stay on top of your gains.</li>
-            </ol>
-        </li>
-    </ol>
+    <div class="container">
+        <h1>Akilles App Support</h1>
+        
+        <p>Akilles is designed for simplicity and efficiency.</p>
+        
+        <h2>How to:</h2>
+        <ol>
+            <li>On the Exercise tab:
+                <ol type="a">
+                    <li>Start by adding your favorite exercises.</li>
+                </ol>
+            </li>
+            <li>On the workout tab:
+                <ol type="a">
+                    <li>Build a workout routine with the exercises you have created. Add sets of your exercises that will be completed in the workout.</li>
+                    <li>Once created, your workouts can be easily reused and modified to fit your progression.</li>
+                    <li>After each session, easily record your completed sets.</li>
+                </ol>
+            </li>
+            <li>On the daily sets tab:
+                <ol type="a">
+                    <li>Track your daily progress and stay on top of your gains.</li>
+                </ol>
+            </li>
+        </ol>
 
-    <h2>Key Features:</h2>
-    
-    <h3>Exercise Tracking:</h3>
-    <ul>
-        <li>Log exercise sets with weight, reps, and duration</li>
-        <li>View your progress over time with detailed charts</li>
-        <li>Track personal records (PRs) for each exercise</li>
-    </ul>
+        <h2>Key Features:</h2>
+        
+        <div class="feature-list">
+            <h3>Exercise Tracking:</h3>
+            <ul>
+                <li>Log exercise sets with weight, reps, and duration</li>
+                <li>View your progress over time with detailed charts</li>
+                <li>Track personal records (PRs) for each exercise</li>
+            </ul>
 
-    <h3>Workout Templates:</h3>
-    <ul>
-        <li>Create custom workout routines</li>
-        <li>Easily track multiple exercises in a single session</li>
-        <li>Set target weights and reps for each exercise</li>
-        <li>Time your sets as needed</li>
-        <li>Time your full workout as needed</li>
-    </ul>
+            <h3>Workout Templates:</h3>
+            <ul>
+                <li>Create custom workout routines</li>
+                <li>Easily track multiple exercises in a single session</li>
+                <li>Set target weights and reps for each exercise</li>
+                <li>Time your sets as needed</li>
+                <li>Time your full workout as needed</li>
+            </ul>
 
-    <h3>Daily Workout Log:</h3>
-    <ul>
-        <li>Record and review your daily exercises</li>
-        <li>Review your training history by date</li>
-        <li>Analyze your workout data with insightful summaries</li>
-    </ul>
+            <h3>Daily Workout Log:</h3>
+            <ul>
+                <li>Record and review your daily exercises</li>
+                <li>Review your training history by date</li>
+                <li>Analyze your workout data with insightful summaries</li>
+            </ul>
 
-    <h3>Performance Metrics:</h3>
-    <ul>
-        <li>Monitor rep counts, average weights, and volume load</li>
-        <li>Track improvements with percentage changes from 30-day averages</li>
-        <li>View max reps, max weight, and best set duration for each exercise</li>
-    </ul>
+            <h3>Performance Metrics:</h3>
+            <ul>
+                <li>Monitor rep counts, average weights, and volume load</li>
+                <li>Track improvements with percentage changes from 30-day averages</li>
+                <li>View max reps, max weight, and best set duration for each exercise</li>
+            </ul>
 
-    <h3>Categories:</h3>
-    <ul>
-        <li>Organize exercises by muscle groups and categories</li>
-        <li>Filter exercises for easy access during workouts</li>
-    </ul>
+            <h3>Categories:</h3>
+            <ul>
+                <li>Organize exercises by muscle groups and categories</li>
+                <li>Filter exercises for easy access during workouts</li>
+            </ul>
 
-    <h3>Detailed Analysis:</h3>
-    <ul>
-        <li>Access statistics for each exercise</li>
-        <li>View total workout volume load</li>
-        <li>Track progress across different muscle groups</li>
-    </ul>
+            <h3>Detailed Analysis:</h3>
+            <ul>
+                <li>Access statistics for each exercise</li>
+                <li>View total workout volume load</li>
+                <li>Track progress across different muscle groups</li>
+            </ul>
 
-    <h3>User-Friendly Design:</h3>
-    <ul>
-        <li>Intuitive design for quick and easy logging</li>
-        <li>Track the exercises that matter to you</li>
-    </ul>
+            <h3>User-Friendly Design:</h3>
+            <ul>
+                <li>Intuitive design for quick and easy logging</li>
+                <li>Track the exercises that matter to you</li>
+            </ul>
 
-    <h3>Data Persistence:</h3>
-    <ul>
-        <li>Store your workout data on your device</li>
-        <li>Sync across your devices with iCloud integration</li>
-    </ul>
+            <h3>Data Persistence:</h3>
+            <ul>
+                <li>Store your workout data on your device</li>
+                <li>Sync across your devices with iCloud integration</li>
+            </ul>
 
-    <h3>Stopwatch:</h3>
-    <ul>
-        <li>Included to quickly time exercise sets</li>
-        <li>Screen does not shut off when timer is active</li>
-    </ul>
+            <h3>Stopwatch:</h3>
+            <ul>
+                <li>Included to quickly time exercise sets</li>
+                <li>Screen does not shut off when timer is active</li>
+            </ul>
+        </div>
 
-    <h2>Contact Us</h2>
-    <p>If you need further assistance, have any questions, would like to recommend additional functionality, or report bugs, please contact us at: akilles.app@gmail.com</p>
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>If you need further assistance, have any questions, would like to recommend additional functionality, or report bugs, please contact us at: akilles.app@gmail.com</p>
+        </div>
 
-    <h2 id="privacy-policy">Privacy Policy</h2>
-    <p><em>Last updated: [August 31, 2024]</em></p>
+        <div class="privacy-policy">
+            <h2 id="privacy-policy">Privacy Policy</h2>
+            <p><em>Last updated: [August 31, 2024]</em></p>
 
-    <h3>Introduction</h3>
-    <p>Akilles is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed by Akilles.</p>
-    <p>This Privacy Policy applies to our mobile application, Akilles (hereby referred to as the "App").</p>
+            <h3>Introduction</h3>
+            <p>Akilles is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed by Akilles.</p>
+            <p>This Privacy Policy applies to our mobile application, Akilles (hereby referred to as the "App").</p>
 
-    <h3>Information We Collect</h3>
-    <p>Akilles is designed with your privacy in mind. We collect only the information you voluntarily provide within the app regarding exercise, and workout information:</p>
-    <ul>
-        <li>Exercise data: This includes weights, repetitions, and durations that you input for your exercises and workouts.</li>
-        <li>Workout and exercise names: Any custom workouts or exercises you create within the app.</li>
-    </ul>
-    <p>We do not collect any personal information such as names, email addresses, or location data.</p>
+            <h3>Information We Collect</h3>
+            <p>Akilles is designed with your privacy in mind. We collect only the information you voluntarily provide within the app regarding exercise, and workout information:</p>
+            <ul>
+                <li>Exercise data: This includes weights, repetitions, and durations that you input for your exercises and workouts.</li>
+                <li>Workout and exercise names: Any custom workouts or exercises you create within the app.</li>
+            </ul>
+            <p>We do not collect any personal information such as names, email addresses, or location data.</p>
 
-    <h3>How We Use Your Information</h3>
-    <p>The information you input into Akilles is used solely for the purpose of providing you with the app's functionalities. We do not use your data for any other purposes such as marketing, analytics, or sharing with third parties.</p>
+            <h3>How We Use Your Information</h3>
+            <p>The information you input into Akilles is used solely for the purpose of providing you with the app's functionalities. We do not use your data for any other purposes such as marketing, analytics, or sharing with third parties.</p>
 
-    <h3>Data Storage and Security</h3>
-    <p>All data you input into Akilles is stored locally on your device or in your iCloud account if you have iCloud sync enabled. We do not have access to this data.</p>
-    <p>While we implement reasonable precautions to protect your information, please note that no security measures are perfect or impenetrable. We cannot guarantee the security of your data transmitted to our App; any transmission is at your own risk.</p>
+            <h3>Data Storage and Security</h3>
+            <p>All data you input into Akilles is stored locally on your device or in your iCloud account if you have iCloud sync enabled. We do not have access to this data.</p>
+            <p>While we implement reasonable precautions to protect your information, please note that no security measures are perfect or impenetrable. We cannot guarantee the security of your data transmitted to our App; any transmission is at your own risk.</p>
 
-    <h3>Data Retention</h3>
-    <p>Your data is retained for as long as you keep it in the App or in your iCloud account. We do not retain any of your data on our servers.</p>
+            <h3>Data Retention</h3>
+            <p>Your data is retained for as long as you keep it in the App or in your iCloud account. We do not retain any of your data on our servers.</p>
 
-    <h3>Children's Privacy</h3>
-    <p>Our App does not use the Application to knowingly solicit data from or market to children under the age of 13.</p>
+            <h3>Children's Privacy</h3>
+            <p>Our App does not use the Application to knowingly solicit data from or market to children under the age of 13.</p>
 
-    <h3>Changes to This Privacy Policy</h3>
-    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+            <h3>Changes to This Privacy Policy</h3>
+            <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
 
-    <h3>Your Rights</h3>
-    <p>You have the right to access, update, or delete your information at any time through the App's interface. If you have any questions about your data, please contact us.</p>
+            <h3>Your Rights</h3>
+            <p>You have the right to access, update, or delete your information at any time through the App's interface. If you have any questions about your data, please contact us.</p>
 
-    <h3>Contact Us</h3>
-    <p>If you have any questions about this Privacy Policy, please contact us at: akilles.app@gmail.com</p>
+            <h3>Contact Us</h3>
+            <p>If you have any questions about this Privacy Policy, please contact us at: akilles.app@gmail.com</p>
 
-    <p>By using Akilles, you agree to the collection and use of information in accordance with this policy.</p>
+            <p>By using Akilles, you agree to the collection and use of information in accordance with this policy.</p>
+        </div>
+    </div>
 </body>
 </html>
